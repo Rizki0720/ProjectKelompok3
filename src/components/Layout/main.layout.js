@@ -7,7 +7,7 @@ const MainLayout = () => {
         <>
         
         <div className='bg-black w-full h-full bg-cover mt-4 flex justify-center items-center flex-col' >
-            <div className='text-center pt-10  text-white'>
+            <div className='text-center pt-10 text-white'>
                 <h1 className='text-5xl font-bold'>Iphone 14</h1>
                 <h3 className='text-2xl mt-3'> A huge leap in battery life.</h3>
                 <h3 className='text-2xl'> Two great sizes. Now in yellow</h3>
@@ -25,10 +25,6 @@ const MainLayout = () => {
         </div>
 
         <MainContentLayout/>
-   
-            
-       
-        
     </>
     );
 }

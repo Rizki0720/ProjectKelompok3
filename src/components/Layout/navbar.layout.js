@@ -1,5 +1,5 @@
 import React from 'react';
-import {navigation} from '../data'
+import Nav from './../Nav';
 
 const NavbarLayout = () => {
     return (
@@ -10,13 +10,7 @@ const NavbarLayout = () => {
                         <h4 className='text-white'>Logo</h4>
                     </div>
                     <div>
-                        <ul className='flex justify-center items-center gap-8 mr-32 '>
-                            {navigation.map((value,index) => {
-                              return  <li key={index}>
-                                    <a href='/#' className='text-white'>{value.nama}</a>
-                                </li>
-                            })}
-                        </ul>
+                        <Nav/>
                     </div>
             </header>
         </>

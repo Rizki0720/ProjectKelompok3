@@ -2,9 +2,14 @@ import React from 'react';
 
 const FooterLayout = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <footer>
+                <div>
+                    <p><p className="text-center text-lg">Copyright &copy; 2023 by Keloompok 3 
+                    | All Right Reserved.</p></p>
+                </div>
+            </footer>
+        </>
     );
 }
 
