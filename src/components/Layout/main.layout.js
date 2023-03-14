@@ -1,5 +1,7 @@
 import React from 'react';
 import { AiOutlineArrowRight} from 'react-icons/ai';
+import MainContentLayout from './mainContent.layout';
+
 const MainLayout = () => {
     return (
         <>
@@ -14,13 +16,19 @@ const MainLayout = () => {
                     <a href='/#'  className='flex items-center gap-2' >Learn More <AiOutlineArrowRight className='mt-1'/> </a>
                     <a href='/#' className='flex items-center gap-2' > Shop <AiOutlineArrowRight className='mt-1'/></a>
                 </div>
-                <div>
+                
                     <img src='/assets/iphone-14-pro-max-deep-purple.jpg' 
                          alt='iphone14'
-                         className='w-96 mt-4'/>
-                </div>
+                         className='w-500 mt-4'/>
+                
             </div> 
-        </div>   
+        </div>
+
+        <MainContentLayout/>
+   
+            
+       
+        
     </>
     );
 }
