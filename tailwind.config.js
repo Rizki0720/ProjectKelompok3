@@ -9,7 +9,8 @@ module.exports = {
       '450': '450px',
     },
     backgroundImage:{
-      'hero-section': "url('/public/assets/hero_iPhone-14-Pro-Max.jpg')"
+      'hero-section': "url('/public/assets/hero_iPhone-14-Pro-Max.jpg')",
+      'main-section': "url('/public/assets/iphone-14-pro-max-deep-purple.jpg')"
     }
   
   },

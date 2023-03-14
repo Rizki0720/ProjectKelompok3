@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroLayout from '../Layout/hero.layout';
+import MainLayout from '../Layout/main.layout';
 import NavbarLayout from '../Layout/navbar.layout';
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
         <div>
             <NavbarLayout/> 
             <HeroLayout/>
+            <MainLayout/>
         </div>
     );
 }
